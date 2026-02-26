@@ -865,7 +865,7 @@ def nav_btn(label: str, key: str, target: str):
 
 with st.sidebar:
     st.markdown('<div class="nav-section">Dashboards</div>', unsafe_allow_html=True)
-    nav_btn("▦  Overview", "nav_overview", "Overview")
+    nav_btn("Overview", "nav_overview", "Overview")
     nav_btn("⌁  Investigate", "nav_investigate", "Investigate")
 
     st.markdown('<div class="nav-section">Operations</div>', unsafe_allow_html=True)
