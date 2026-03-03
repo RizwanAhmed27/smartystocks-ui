@@ -808,7 +808,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("📦 Smarty Stock Pro")
+st.title("📦 Smarty Stock Pr")
 st.caption("Demand forecasting, decision support, and anomaly monitoring for retail inventory.")
 st.divider()
 
