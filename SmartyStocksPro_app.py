@@ -1191,7 +1191,7 @@ if page == "Overview":
         with r1: kpi_card("High priority (view)", f"{high_n_view:,}", "Filtered scope")
         with r2: kpi_card("Anomalies (view)", f"{anom_n_view:,}", "Filtered scope")
 
-    st.divider()
+    #st.divider()
     recommended_actions_panel(df_view, contamination, z_thresh)
 
     st.divider()
