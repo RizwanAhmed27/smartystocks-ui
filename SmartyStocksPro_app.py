@@ -1185,14 +1185,14 @@ if page == "Overview":
 
     with right:
         st.subheader("Decision panel")
-        whats_happening(df_view, store_sel, prod_sel)
+        whats_happening_panel(df_view, store_sel, prod_sel)
 
         r1, r2 = st.columns(2, gap="large")
         with r1: kpi_card("High priority (view)", f"{high_n_view:,}", "Filtered scope")
         with r2: kpi_card("Anomalies (view)", f"{anom_n_view:,}", "Filtered scope")
 
     st.divider()
-    recommended_actions(df_view, contamination, z_thresh)
+    recommended_actions_panel(df_view, contamination, z_thresh)
 
     st.divider()
 
